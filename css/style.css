@@ -131,13 +131,13 @@ img {
 
 /*media query tablet-768*/
 
-@media all and(max-width:768px) {
+@media all and (max-width:768px) {
     .container {
         width: 100%;
     }
 }
 
-@media all and(max-width:480px) {
+@media all and (max-width:480px) {
     .row {
         flex-direction: column;
     }
