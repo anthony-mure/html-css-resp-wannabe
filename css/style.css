@@ -162,5 +162,14 @@ img {
         margin-bottom: 50px;
     }
 
+    .lessons .col:last-child,
+    .steps .col:last-child,
+    .why-us col:last-child {
+        margin-bottom: 0px;
+    }
+
+    .steps {
+        margin-bottom: 0px;
+    }
 
 }
