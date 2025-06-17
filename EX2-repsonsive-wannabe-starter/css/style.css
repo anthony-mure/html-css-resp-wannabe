@@ -132,9 +132,35 @@ img {
 /*media query tablet-768*/
 
 @media all and(max-width:768px) {
-    body {
-        max-width: 750px;
-        margin: 30px auto;
-        align-items: center;
+    .container {
+        width: 100%;
     }
+}
+
+@media all and(max-width:480px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .lessons .col {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .steps .col {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .why-us .col-left {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .why-us .col-right {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+
 }
